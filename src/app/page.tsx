@@ -15,11 +15,8 @@ export default function LandingPage() {
           mornings, urges, and nights.
         </p>
         <div className="grid gap-2 sm:max-w-xs">
-          <Link href="/signup">
-            <Button>Start free MVP</Button>
-          </Link>
-          <Link href="/login">
-            <Button variant="ghost">I already have an account</Button>
+          <Link href="/morning">
+            <Button>Get started</Button>
           </Link>
         </div>
       </section>
